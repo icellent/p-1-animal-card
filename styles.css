@@ -1,50 +1,60 @@
 /* add your CSS here */
-body {
-  font-family: Arial, sans-serif;
-}
-h1, h2, h3, p, ul {
-  margin: 0;
-  padding: 0;
-}
-.wrap {
-  padding: 15px;
-  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.3);;
-  width: 320px;
-  margin: auto;
-}
-.title {
-  font-size: 30px;
 
-  margin: 0 auto 15px;
-  width: 300px;
+body {
+    font-family: Arial, sans-serif;
 }
+
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    padding: 15px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.3);
+    width: 320px;
+    margin: auto;
+}
+
+.title {
+    font-size: 30px;
+    margin: 0 auto 15px;
+    width: 300px;
+}
+
 .description {
-  box-sizing: border-box;
-  border: 1px solid #cccccc;
-  padding: 10px;
-  margin: 10px auto 0px;
-  width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin: 10px auto 0px;
+    width: 300px;
 }
+
 .description > p:last-of-type {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
+
 img {
-  margin: auto;
-  display: block;
-  max-width: 300px;
+    margin: auto;
+    display: block;
+    max-width: 300px;
 }
+
 .lead {
-  font-style: italic;
+    font-style: italic;
 }
+
 ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin: 15px 0;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 15px 0;
 }
+
 li {
-  font-style: italic;
+    font-style: italic;
 }
+
 li > span {
-  font-weight: bold;
-  font-style: normal;
+    font-weight: bold;
+    font-style: normal;
 }
